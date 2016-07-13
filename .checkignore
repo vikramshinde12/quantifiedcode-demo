@@ -1,0 +1,7 @@
+# Ignore folder content
+test/*
+unittest/*
+
+# Ignore files
+demo.py
+test/demo.py
