@@ -1,3 +1,3 @@
 a = input("Enter number")
-if a!=1 and a!=-1 and a!=3:
+if a!=10 and a!=-91 and a!=33:
    print("something")
