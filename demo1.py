@@ -12,7 +12,7 @@ def test(a, b=[]):
     pass
 
 # Duplicate dictionary keys
-time = {"hour": 8, "minute": 37, "second": 05, "hour": 12}
+time = { "minute": 37, "second": 05, "hour": 12}
 
 # Invalid NoneType comparisons
 x = None
