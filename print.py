@@ -1,1 +1,1 @@
-print("%s is %s" % ("`$`", "fine"))
+print("{0!s} is {1!s}".format("`$`", "fine"))
