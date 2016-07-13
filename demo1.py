@@ -27,8 +27,8 @@ if i <> k:
     print("Use !=")
 
 # Using list instead of iterator
-any([i*2 == 12 for i in range(10)])
-all([i*2 < 10 for i in range(10)])
+any(i*2 == 12 for i in range(10))
+all(i*2 < 10 for i in range(10))
 
 # No dict/set comprehensions used
 times=[]
