@@ -5,5 +5,8 @@ def hello():
 # only possible value is None
 h = hello()
 
-if a1 < a2 == b1 < b2:
+if (a1 < a2) == (b1 < b2):
   print "The condition evaluated to True"
+  
+s = "print( \"Hello, World!\")"
+exec (s)
