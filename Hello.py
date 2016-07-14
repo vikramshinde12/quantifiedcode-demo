@@ -8,5 +8,5 @@ h = hello()
 if (a1 < a2) == (b1 < b2):
   print "The condition evaluated to True"
   
-s = "print( \"Hello, World!\")"
-exec (s)
+s1 = "print( \"Hello, World!\")"
+exec (s1)
