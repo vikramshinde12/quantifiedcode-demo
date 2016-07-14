@@ -1,5 +1,8 @@
 # ZeroDivision error 'swallowed' by pass statement
+result = None
 try:
-    10 / 0
+    result = 10 / 0
 except:
-    pass
+    ZeroDivisionError:
+        print "Type error: division by 0."
+		result = 0
