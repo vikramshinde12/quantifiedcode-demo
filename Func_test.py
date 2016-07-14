@@ -1,3 +1,3 @@
-def any_function(): 
-	pass
+def my_function(): 
+    pass
 
