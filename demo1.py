@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Outdated style string formatting
-print "This is an old-style string formatting %s" % "Test"
+print "This is an old-style string formatting {0!s}".format("Test")
 
 # Replacement fields not explicitly numbered
 print "{} is {}".format("life", "hard")
