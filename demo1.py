@@ -8,7 +8,9 @@ print "This is an old-style string formatting %s" % "Test"
 print "{} is {}".format("life", "hard")
 
 # Mutable default argument used
-def test(a, b=[]):
+def test(a, b=None):
+    if b is None:
+        b = []
     pass
 
 # Duplicate dictionary keys
