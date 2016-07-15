@@ -8,17 +8,15 @@ print "This is an old-style string formatting %s" % "Test"
 print "{} is {}".format("life", "hard")
 
 # Mutable default argument used
-def test(a, b=None):
-    if b is None:
-        b = []
+def test(a, b=[]):
     pass
 
 # Duplicate dictionary keys
-time = { "minute": 37, "second": 05, "hour": 12}
+time = {"hour": 8, "minute": 37, "second": 05, "hour": 12}
 
 # Invalid NoneType comparisons
 x = None
-if x is None:
+if x == None:
   print "Use is, not =="
 
 # Outdated <> operator
@@ -27,11 +25,11 @@ if i <> k:
     print("Use !=")
 
 # Using list instead of iterator
-any(i*2 == 12 for i in range(10))
-all(i*2 < 10 for i in range(10))
+any([i*2 == 12 for i in range(10)])
+all([i*2 < 10 for i in range(10)])
 
 # No dict/set comprehensions used
 times=[]
 times.append({"hour": 8, "minute": 37, "second": 05})
 times.append({"hour": 9, "minute": 37, "second": 05})
-stuff_dict = {t["minute"]: t["hour"] for t in times}
+stuff_dict = dict([(t["minute"], t["hour"]) for t in times])
