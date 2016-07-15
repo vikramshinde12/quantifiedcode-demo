@@ -16,7 +16,7 @@ time = {"hour": 8, "minute": 37, "second": 05, "hour": 12}
 
 # Invalid NoneType comparisons
 x = None
-if x == None:
+if x is None:
   print "Use is, not =="
 
 # Outdated <> operator
