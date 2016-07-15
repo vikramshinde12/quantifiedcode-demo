@@ -1,6 +1,6 @@
-def helloWorld(my_string):
-    print("Hello : "+my_string)
-    my_name = input("What is your name?")
-    print(my_name)
+def helloWorld(myString):
+    print("Hello : "+myString)
+    myName = input("What is your name?")
+    print(myName)
 
 helloWorld('Vikram')
