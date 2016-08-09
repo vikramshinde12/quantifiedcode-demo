@@ -34,4 +34,4 @@ all([i*2 < 10 for i in range(10)])
 times=[]
 times.append({"hour": 8, "minute": 37, "second": 05})
 times.append({"hour": 9, "minute": 37, "second": 05})
-stuff_dict = dict([(t["minute"], t["hour"]) for t in times])
+stuff_dict = {t["minute"]: t["hour"] for t in times}
